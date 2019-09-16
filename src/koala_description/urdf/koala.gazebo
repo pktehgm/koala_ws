@@ -7,8 +7,12 @@
       <legacyMode>false</legacyMode>
       <alwaysOn>true</alwaysOn>
       <updateRate>20</updateRate>
-      <leftJoint>left_wheel_hinge</leftJoint>
-      <rightJoint>right_wheel_hinge</rightJoint>
+      <leftJoint>front_left_wheel</leftJoint>
+      <leftJoint>middle_left_wheel</leftJoint>
+      <leftJoint>rear_left_wheel</leftJoint>
+      <rightJoint>front_right_wheel</rightJoint>
+      <rightJoint>middle_right_wheel</rightJoint>
+      <rightJoint>rear_right_wheel</rightJoint>
       <wheelSeparation>0.4</wheelSeparation>
       <wheelDiameter>0.1</wheelDiameter>
       <torque>20</torque>
@@ -20,7 +24,31 @@
   </gazebo>
 
   <gazebo reference="body">
-      <material>Gazebo/Orange</material>
-    </gazebo>
+    <material>Gazebo/Grey</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel_middle">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_wheel_middle">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel_front">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_wheel_front">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="right_wheel_rear">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="left_wheel_rear">
+    <material>Gazebo/Black</material>
+  </gazebo>
 
 </robot>
