@@ -33,6 +33,7 @@
       <geometry>
         <box size=".65 .35 .15"/>
       </geometry>
+      <material name="grey"/>
     </visual>
 
   </link>
@@ -51,6 +52,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
@@ -76,6 +78,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
@@ -120,6 +123,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
@@ -144,6 +148,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
@@ -187,6 +192,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
@@ -211,6 +217,7 @@
       <geometry>
         <cylinder radius="0.1" length="0.05"/>
       </geometry>
+      <material name="black"/>
     </visual>
     <inertial>
       <origin xyz="0 0 0" rpy="0 1.5707 1.5707"/>
