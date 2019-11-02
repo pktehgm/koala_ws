@@ -13,6 +13,6 @@
 
   <!-- Show in Rviz   -->
   <!--node name="rviz" pkg="rviz" type="rviz"/-->
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find koala_description)/launch/koala.rviz"/>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find koala_description)/rviz/koala.rviz"/>
 
 </launch>
