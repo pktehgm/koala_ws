@@ -252,35 +252,31 @@
   </joint>
 
 <!-- Camera -->
- <link name="camera">
-    <collision>
+  <link name="kinect">
+    <collision name="collision">
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="${cameraSize} ${cameraSize} ${cameraSize}"/>
+        <box size="0.073000 0.276000 0.072000"/>
       </geometry>
     </collision>
-
-    <visual>
+    <visual name="visual">
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <box size="${cameraSize} ${cameraSize} ${cameraSize}"/>
+        <mesh filename="package://koala_description/meshes/kinect.dae"/>
       </geometry>
-      <material name="black"/>
     </visual>
-
     <inertial>
-      <mass value="${cameraMass}" />
+      <mass value="1e-5" />
       <origin xyz="0 0 0" rpy="0 0 0"/>
-      <box_inertia m="${cameraMass}" x="${cameraSize}" y="${cameraSize}" z="${cameraSize}" />
       <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
     </inertial>
   </link>
 
-  <joint name="camera_joint" type="fixed">
+  <joint name="kinect_joint" type="fixed">
     <axis xyz="0 1 0" />
-    <origin xyz="0.3 0.0 0.1" rpy="0 0 0"/>
+    <origin xyz="0.28 0.0 0.11" rpy="0 0 1.57"/>
     <parent link="body"/>
-    <child link="camera"/>
+    <child link="kinect"/>
   </joint>
 
 <!--IR sensors right front-->
