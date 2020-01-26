@@ -11,7 +11,6 @@
   <xacro:include filename="$(find koala_description)/urdf/materials.xacro" />
   <xacro:include filename="$(find koala_description)/urdf/macros.xacro" />
 
-
   <link name='body'>
     <pose>0 0 0.1 0 0 0</pose>
 
@@ -254,13 +253,13 @@
 <!-- Camera -->
   <link name="kinect">
     <collision name="collision">
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
       <geometry>
         <box size="0.073000 0.276000 0.072000"/>
       </geometry>
     </collision>
     <visual name="visual">
-      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <origin xyz="0 0 0" rpy="0 0 1.57"/>
       <geometry>
         <mesh filename="package://koala_description/meshes/kinect.dae"/>
       </geometry>
@@ -274,10 +273,27 @@
 
   <joint name="kinect_joint" type="fixed">
     <axis xyz="0 1 0" />
-    <origin xyz="0.28 0.0 0.11" rpy="0 0 1.57"/>
+    <origin xyz="0.28 0.0 0.11" rpy="0 0 0"/>
     <parent link="body"/>
     <child link="kinect"/>
   </joint>
+
+<!-- generate an optical frame 
+      http://www.ros.org/reps/rep-0103.html#suffix-frames
+      so that ros and opencv can operate on the camera frame correctly 
+      -->
+  <joint name="kinect_optical_joint" type="fixed">
+    <!-- these values have to be these values otherwise the gazebo camera
+        image won't be aligned properly with the frame it is supposedly
+        originating from -->
+    <origin xyz="0 0 0" rpy="-1.57 0 -1.57"/>
+    <parent link="kinect"/>
+    <child link="kinect_link_optical"/>
+  </joint>
+
+  <link name="kinect_link_optical">
+  </link>
+
 
 <!--IR sensors right front-->
   <joint name="ir_r0_joint" type="fixed">
