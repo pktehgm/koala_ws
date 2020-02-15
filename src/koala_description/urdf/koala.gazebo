@@ -49,6 +49,70 @@
     <material>Gazebo/Black</material>
   </gazebo>
 
+  <gazebo reference="ir_r0">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r1">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r2">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r3">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r4">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r5">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r6">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_r7">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l0">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l1">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l2">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l3">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l4">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l5">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l6">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo reference="ir_l7">
+    <material>Gazebo/Black</material>
+  </gazebo>
+
   <!-- Camera -->
   <gazebo reference="kinect">
     <sensor name="kinect" type="depth">
@@ -98,7 +162,7 @@
   <gazebo reference="ir_r0">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -136,7 +200,7 @@
   <gazebo reference="ir_r1">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -174,7 +238,7 @@
   <gazebo reference="ir_r2">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -212,7 +276,7 @@
   <gazebo reference="ir_r3">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -251,7 +315,7 @@
   <gazebo reference="ir_r4">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -289,7 +353,7 @@
   <gazebo reference="ir_r5">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -328,7 +392,7 @@
   <gazebo reference="ir_r6">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -365,7 +429,7 @@
   <gazebo reference="ir_r7">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -404,7 +468,7 @@
   <gazebo reference="ir_l0">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -442,7 +506,7 @@
   <gazebo reference="ir_l1">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -480,7 +544,7 @@
   <gazebo reference="ir_l2">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -518,7 +582,7 @@
   <gazebo reference="ir_l3">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -557,7 +621,7 @@
   <gazebo reference="ir_l4">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -595,7 +659,7 @@
   <gazebo reference="ir_l5">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -634,7 +698,7 @@
   <gazebo reference="ir_l6">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>
@@ -672,7 +736,7 @@
   <gazebo reference="ir_l7">
     <sensor type="ray" name="infrared">
       <pose>0 0 0 0 0 0</pose>
-      <visualize>true</visualize>
+      <visualize>false</visualize>
       <update_rate>50</update_rate>
       <ray>
         <scan>

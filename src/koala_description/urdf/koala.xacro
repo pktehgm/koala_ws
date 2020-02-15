@@ -278,9 +278,9 @@
     <child link="kinect"/>
   </joint>
 
-<!-- generate an optical frame 
+<!-- generate an optical frame
       http://www.ros.org/reps/rep-0103.html#suffix-frames
-      so that ros and opencv can operate on the camera frame correctly 
+      so that ros and opencv can operate on the camera frame correctly
       -->
   <joint name="kinect_optical_joint" type="fixed">
     <!-- these values have to be these values otherwise the gazebo camera
@@ -316,6 +316,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -345,6 +346,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -374,6 +376,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -403,6 +406,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -433,6 +437,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -462,6 +467,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -492,6 +498,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -521,6 +528,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -551,6 +559,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -580,6 +589,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -609,6 +619,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -638,6 +649,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -668,6 +680,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -697,6 +710,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -727,6 +741,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
@@ -756,6 +771,7 @@
       <geometry>
         <box size="0.01 0.01 0.01"/>
       </geometry>
+      <material name="black"/>
     </visual>
 
     <inertial>
